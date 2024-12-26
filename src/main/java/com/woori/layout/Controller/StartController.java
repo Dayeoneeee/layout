@@ -66,7 +66,7 @@ public class StartController {
         String win = "컴퓨터가 이겼습니다."; //가상의 결과를 컴퓨터가 이긴 경우로 설정
 
         if (game ==1){  //플레이어가 가위
-            if (computer == 3){
+            if (computer == 3){ //컴퓨터가 보
                 win=name+"가 이겼습니다.";   //플레이어가 이긴 경우
             }
         } else if (game == 2) { //플레이어가 바위
